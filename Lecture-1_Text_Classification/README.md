@@ -1,9 +1,5 @@
 ## Tutorial: Machine Learning with Text in scikit-learn
 
-Presented by [Kevin Markham](http://www.dataschool.io/about/) at PyCon on May 28, 2016. Watch the complete [tutorial video](https://www.youtube.com/watch?v=ZiKMIuYidY0&list=PL5-da3qGB5ICeMbQuqbbCOQWcS6OYBr5A&index=10) on YouTube.
-
-[![Watch the complete tutorial video on YouTube](youtube.jpg)](https://www.youtube.com/watch?v=ZiKMIuYidY0&list=PL5-da3qGB5ICeMbQuqbbCOQWcS6OYBr5A&index=10 "Machine Learning with Text in scikit-learn - PyCon 2016")
-
 ### Description
 
 Although numeric data is easy to work with in Python, most knowledge created by humans is actually raw, unstructured text. By learning how to transform text into data that is usable by machine learning models, you drastically increase the amount of data that your models can learn from. In this tutorial, we'll build and evaluate predictive models from real-world text using scikit-learn.
