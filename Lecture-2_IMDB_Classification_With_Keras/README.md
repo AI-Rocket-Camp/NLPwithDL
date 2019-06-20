@@ -1,3 +1,6 @@
+### AI火箭营基于深度学习的自然语言处理课程-第二课
+#### 本作业相关信息见下文
+
 # AIND: Natural Language Processing
 
 Coding exercises for the Natural Language Processing concentration, part of Udacity's Artificial Intelligence Nanodegree program.
@@ -12,15 +15,15 @@ pip install -r requirements.txt
 
 ## Data
 
-Data files for exercises are included under `data/`, but some of the NLP libraries require additional data for performing tasks like 
-PoS tagging, lemmatization, etc. Specifically, `nltk` will throw an error if the required data is not installed. You can use the 
+Data files for exercises are included under `data/`, but some of the NLP libraries require additional data for performing tasks like
+PoS tagging, lemmatization, etc. Specifically, `nltk` will throw an error if the required data is not installed. You can use the
 following Python statement to open the NLTK downloader and select the desired package(s) to install:
 
 ```python
 nltk.download()
 ```
 
-You can also download all available NLTK data packages, which includes a number of sample corpora as well, but that may take a while 
+You can also download all available NLTK data packages, which includes a number of sample corpora as well, but that may take a while
 (10+GB).
 
 ## Run
