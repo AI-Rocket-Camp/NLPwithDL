@@ -62,8 +62,8 @@ def format_mrpc(data_dir, path_to_data):
         try:
             mrpc_train_file = os.path.join(mrpc_dir, "msr_paraphrase_train.txt")
             mrpc_test_file = os.path.join(mrpc_dir, "msr_paraphrase_test.txt")
-            URLLIB.urlretrieve(MRPC_TRAIN, mrpc_train_file)
-            URLLIB.urlretrieve(MRPC_TEST, mrpc_test_file)
+            urllib.request.urlretrieve(MRPC_TRAIN, mrpc_train_file)
+            urllib.request.urlretrieve(MRPC_TEST, mrpc_test_file)
         except urllib.error.HTTPError:
             print("Error downloading MRPC")
             return
